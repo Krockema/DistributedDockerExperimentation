@@ -18,7 +18,7 @@ namespace ExecutorPluginSimulator
                     
                 } else
                 {
-                    for (int j = 0; j < length; j++)
+                    for (int j = 0; j < ((IParameterList)parameter).count() ; j++)
                     {
 
                     }
